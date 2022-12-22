@@ -1,0 +1,75 @@
+
+
+
+
+.channel-btn {
+	margin-top: 50px;
+}
+
+.pg-btn{
+	display: inline-block;
+	text-decoration: none;
+	color: #333;
+	border: 1px solid #063970;
+	padding: 12px 34px;
+	font-size:  13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+
+.pg-btn:hover {
+	border: 1px solid #063970;
+	color: #fff;
+	background: #063970;
+    transition: 1s;	
+}
+
+.pg-btn a {
+	color: #333;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.chnl-btn{
+	display: inline-block;
+	text-decoration: none;
+	color: #333;
+	border: 1px solid #000000;
+	padding: 12px 34px;
+	font-size:  13px;
+	background: transparent;
+	position: relative;
+	cursor: pointer;
+}
+
+.chnl-btn:hover {
+	border: 1px solid #000000;
+	background: #000000;
+    transition: 1s;	
+}
+
+.chnl-btn a {
+	color: #333;
+	text-decoration: none;
+	font-size: 13px;
+}
+
+.channelg-frm {
+	margin-top: 50px;
+    margin-bottom: 50px;	
+}
+
+.admin-content{
+	width: 80%;
+	margin: auto;
+}
+
+.admin-content input,select{
+	margin-top: 5px;
+	width: 100%;
+	padding: 15px;
+	margin-bottom: 17px;
+	outline: none;
+	border: 1px solid #063970;
+}
