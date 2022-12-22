@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html>
+<head>
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>FUTURE DOC | CHANNEL DOCTOR</title>
+   <link rel="stylesheet" href="../styles/header and footer.css">
+   <link rel="stylesheet" href="E:\ABISHEKA\SLIIT\YEAR_2_SEM_1\OOP\ASSIGNMENT\src\styles\ChannelDoctor.css">
+
+   
+</head>
+<body>
+<!--header-->
+<section class="sub-header">
+    <nav>
+       <a href="Home.html"><img src="../images/logo.png"></a>
+       <!-- nav bar -->
+       <div class="nav-links" >
+           <ul>
+               <li><a href="">HOME</a></li>
+               <li><a href="">MY APPOINTMENTS</a></li>
+               <li><a href="">ABOUT US</a></li>
+               <li><a href="">CONTACT US</a></li>
+               <li><a href="">HELP</a></li>
+               <li><a href="">FEEDBACK</a></li>
+               <li><a href="">SIGN UP</a></li>
+               <li><a href="">LOGIN</a></li>
+           </ul>	
+       </div>		
+    </nav>
+    <h1>CHANNEL DOCTOR</h1>
+  </section>
+
+
+
+   <!-- BODY -->
+
+   <section class="admin-content">
+     
+	     <!--- APPOINTMENT form --->
+      <!--PATIENT DETAILS-->
+			<h1>PATIENT DETAILS :</h1>
+			<br>
+			<br>
+		<!--PATIENT NAME-->
+		<label for="fname">FIRST NAME:</label>
+		<input type="text" id="fname" name="fname"><br>
+		<label for="lname">LAST NAME:</label>
+		<input type="text" id="lname" name="lname"><br>
+		
+
+		<!--PATIENT AGES-->
+		<label class="input-label">AGE: </label>
+		<input type="number" name="age" class="txt-input" min="1" required><br>
+		
+
+		<!--PATIENT CONTACT-->
+		<label for="phone">CONTACT NO:</label>
+		<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"><br>
+			
+		<!--PATIENT MAIL-->
+		<label for="email">EMAIL:</label>
+		<input type="email" id="email" name="email"><br>
+
+		<!--PATIENT GENDER-->
+		<label class="input-label">GENDER: </label>
+		<select name="PATIENT GENDER" class="txt-input" required>
+			<option value="">Select a Gender...</option>
+			<option value="Male">Male</option>
+			<option value="Female">Female</option>
+		</select><br>
+
+			<br>
+			<br>
+			<br>
+			<br>
+
+		<!--DOCTOR DETAILS-->	
+		<h1>APPOINTMENT DETAILS :</h1>
+			<br>
+			<br>
+		<!-- DOCTOR NAME-->
+		<label for="fname">DOCTOR NAME:</label>
+		<select name="DoctorName" class="txt-input" required>
+			<option value="">Select a Doctor...</option>
+			<option value="Ashok Kamaladasan">Mr.Ashok Kamaladasan</option>
+			<option value="Asiri Wanninayake">Mr.Asiri Wanninayake</option>
+			<option value="Anoma Fernando">Mrs.Anoma Fernando</option>
+			<option value="Brian Fernando">Mr.Brian Fernando</option>
+			<option value="Densil Perera">Mr.Densil Perera</option>
+			<option value="Dhammika Hettiarachchi">Mrs.Dhammika Hettiarachchi</option>
+			<option value="Rajeshwaram Khanna">Mr.Rajeshwaram Khanna</option>
+			<option value="Rajini Perera">Mrs.Rajini Perera</option>
+			<option value="Manjula Wickramasinghe">Mrs.Manjula Wickramasinghe</option>
+			<option value="Nimantha Dissanayake">Mr.Nimantha Dissanayake</option>
+			<option value="Vathila Rajapakse">Mr.Vathila Rajapakse</option>
+			<option value="Supun Kariyawasam">Mr.Supun Kariyawasam</option>
+			<option value="Kanchana Athukorala">Mrs.Kanchana Athukorala</option>
+			<option value="Sagara Sampath">Mr.Sagara Sampath</option>
+			<option value="Praveena Fernando">Mrs.Praveena Fernando</option>
+			<option value="Anoma Dunusinghe">Mrs.Anoma Dunusinghe</option>
+		</select><br>
+		
+
+		<label class="input-label">DOC-SPECIALIZATION: </label>
+		    <select name="SPECIALIZATION" class="txt-input" required>
+			    <option value="">Select a Specialization...</option>
+				<option value="Allergy and Immunology">Allergy and Immunology</option>
+				<option value="Cardiologist">Cardiologist</option>
+				<option value="Dental Surgeon">Dental Surgeon</option>
+				<option value="Cosmetologist">Cosmetologist</option>
+				<option value="Diabetologist">Diabetologist</option>
+				<option value="Food & Nutrition">Food & Nutrition</option>
+				<option value="Neurologist">Neurologist</option>
+				<option value="Psychologist">Psychologist</option>
+				<option value="Eye Surgeon">Eye Surgeon</option>
+			</select><br>
+
+
+		<!-- HOSPITAL -->	
+			<label class="input-label">HOSPITAL: </label>
+		    <select name="HOSPITAL"  class="txt-input" required>
+			    <option value="">Select a Hospital...</option>
+				<option value="Asiri Health">Asiri Health</option>
+				<option value="Nawaloka">Nawaloka</option>
+				<option value="Golden Key">Golden Key</option>
+				<option value="Hemas">Hemas</option>
+				<option value="Vision Care">Vision Care</option>
+				<option value="Durdance">Durdance</option>
+				<option value="NineWells">NineWells</option>
+				<option value="Suwasetha eye Hospital">Suwasetha eye Hospital</option>
+			</select><br>
+		
+		<!-- APPOINTMENT DATE -->	
+			<label class="input-label">APPOINTMENT DATE: </label>
+		    <input type="date" name="dept-date" class="txt-input" required>
+
+			<br>
+            <br>
+			<br>
+            <br>
+
+		    <button type="reset" class="chnl-btn"> Clear </button>
+			<button type="button" class="chnl-btn"> <a href="E:\ABISHEKA\SLIIT\YEAR_2_SEM_1\OOP\ASSIGNMENT\src\html\MakeAppointment.html"> Back </a> </button>
+		    <button type="submit" class="chnl-btn"> <a href="Available-flights.html"> Next </a> </button>
+            <br>
+            <br>
+		</form>
+   
+		<br>
+		<br>
+   </section>
+   <br>
+         <br>
+	    <form class="channel-frm" form action="insert" method="post">
+		
+		
+<!-- footer -->
+   
+<section class="footer">
+    <h4><a href=""> Privacy policy </a> | <a href="">Our Services</a>| <a href="">Terms and Conditions</a></h4>
+    <p> +94778603171 | +94771907411 | +94766889001 | +94763555701 </p>
+    <div class="icons">
+       <img src="../images/facebook.png">
+       <img src="../images/twitter.png">
+       <img src="../images/instagram.png">
+    </div>
+    <p>Copyright all Rights Reserved</p>
+  </section>     
+</body>
+</html>
